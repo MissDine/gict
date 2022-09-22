@@ -1,5 +1,5 @@
 import "../src/index.css"
-import Navbar from "../src/components/Navbar/Navbar"
+import Navbar from "./components/Navbar/NavBar"
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom" ;
 import Home from "../src/components/Home/Home"
 import Header from "../src/components/Header/Header"
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Routes>
-      <Route exact path = "/" component={Home}></Route>
+      <Route exact path = "/home" component={Home}></Route>
       <Route exact path = "/header" component={Header}></Route>
       </Routes>
       <Header/>
