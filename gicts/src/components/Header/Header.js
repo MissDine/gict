@@ -1,8 +1,9 @@
 import React from "react";
 import Typed from "react-typed";
-function App() {
+import "./Header.css"
+function Header() {
   return (
-    <div className="col-sm-12" style={{backgroundColor:"red"}}>
+    <div className="head col-sm-12" style={{backgroundColor:"red"}}>
       <div className="col-sm-12">
       <Typed
             strings={["Welcome To Goatmentors"]}
@@ -21,4 +22,4 @@ function App() {
   );
 }
 
-export default App;
+export default Header;
