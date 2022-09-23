@@ -1,10 +1,10 @@
 import React from "react";
 import Typed from "react-typed";
-import "./Header.css"
+// import "./Header.css"
 function Header() {
   return (
-    <div className="head col-sm-12" style={{backgroundColor:"red"}}>
-      <div className="col-sm-12">
+    <div className="head col-sm-12" style={{backgroundColor:"#66BFBF"}}>
+      <div className="col-sm-12" style={{marginLeft:"10vw",marginRight:"10vw",marginTop:"3vh"}}>
       <Typed
             strings={["Welcome To Goatmentors"]}
             typeSpeed={150}
