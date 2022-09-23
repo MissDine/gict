@@ -8,7 +8,7 @@ import Copyright from "./Copyright.jsx"
 const Footer = () => {
   return (
     <>
-    <div className="row" style={{ backgroundColor: "#8B4411",color:"white"}}>
+    <div className="col-sm-12" style={{ backgroundColor: "#66BFBF",color:"white"}}>
       <div className="footers col-sm-12" style={{ display: "flex", flexWrap:"wrap",justifyContent: "center",paddingRight:"20vw",paddingTop:"3vh" }}>
         <div className="logo" >
           <img src={logoo} alt="" />

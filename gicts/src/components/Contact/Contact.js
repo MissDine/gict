@@ -18,7 +18,7 @@ function Contact() {
     })
   }
   return (
-    <div className="row">
+    <div className="row" style={{backgroundColor:"#66BFBF"}}>
     <div className="contacts" style={{justifyContent:"center"}}>
     <h1 style={{fontSize:"2rem",fontWeight:"600px", textAlign:"center"}}>Contact Us</h1>
     </div>
@@ -34,7 +34,7 @@ function Contact() {
             >
               <div className="identity" >
               <div class="col">
-              <label>Name:</label>
+              <p>Name:</p>
                 <input
                   type="text"
                   required value={name}
@@ -45,11 +45,10 @@ function Contact() {
                   name="name"
                   style={{
                     height: "5vh",
-                    width: "15vw",
+                    width: "32vw",
                     marginBottom: "3vh",
                     borderRadius: "5px",
-                    backgroundColor: "#8B4411",
-                  opacity:"39%",
+                    backgroundColor: "#FFFFFF",
                   border: "0px",
                   fontSize:"1rem",
                   color:"black"
@@ -57,7 +56,7 @@ function Contact() {
                 />
               </div>
               <div class="col-sm-12">
-              <label>Email:</label>
+              <p>Email:</p>
                 <input
                   type="password"
                   required value ={email}
@@ -67,11 +66,10 @@ function Contact() {
                   name="email"
                   style={{
                     height: "5vh",
-                    width: "15vw",
+                    width: "32vw",
                     marginBottom: "3vh",
                     borderRadius: "5px",
-                    backgroundColor: "#8B4411",
-                  opacity:"39%",
+                    backgroundColor: "#FFFFFF",
                   border: "0px",
                   fontSize:"1rem",
                   color:"black"
@@ -80,7 +78,7 @@ function Contact() {
               </div>
               </div>
               <div className="col-sm-12">
-              <label>Message:</label>
+              <p>Message:</p>
               <input
                 type="password"
                 required value ={message}
@@ -92,9 +90,8 @@ function Contact() {
                   height: "9vh",
                   width: "32vw",
                   marginBottom: "3vh",
-                  backgroundColor: "#8B4411",
+                  backgroundColor: "#FFFFFF",
                   borderRadius: "5px",
-                  opacity:"39%",
                   border: "0px",
                   fontSize:"1rem",
                   color:"black"
@@ -107,10 +104,10 @@ function Contact() {
                 width: "13vw",
                 marginBottom: "2vh",
                 borderRadius: "8px",
-                backgroundColor: "#8B4411",
+                backgroundColor: "#FF0063",
                 color: "white",
                 border: "0px",
-                marginLeft:"22vw",
+                marginLeft:"10vw",
                 fontWeight:"700px",
                 fontSize:"1rem"
               }}

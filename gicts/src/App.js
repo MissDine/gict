@@ -7,6 +7,8 @@ import Footer from "../src/components/Footer/Footer";
 import Contact from "../src/components/Contact/Contact"
 import Services from "../src/components/Services/Services"
 import About from "../src/components/About/About"
+import Copyright from "./components/Footer/Copyright";
+
 
 function App() {
   return (
@@ -25,7 +27,8 @@ function App() {
         <About/>
         <Services/>
         <Contact/>
-        <Footer />
+        <Copyright/>
+        {/* <Footer /> */}
       </div>
     </Router>
   );

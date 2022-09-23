@@ -22,21 +22,22 @@ function NavBar() {
           <div className="linkedin">
             <img src={twitter} alt="" style={{height:"40px",width:"40px"}}/>
           </div>
-          <div className="twitter">
+          {/* <div className="twitter">
             <img src={youtube} alt="" style={{height:"40px",width:"40px"}}/>
-          </div>
+          </div> */}
         </div>
-        <div className="col-sm-12" style={{display:"flex", flexWrap:"wrap", justifyContent:"center", alignContent:"center", marginRight:"2vw"}}>
+        <div className="col-sm-12" style={{display:"flex", flexWrap:"wrap", justifyContent:"center", alignItems:"center", marginRight:"0vw"}}>
           <div className="links" style={{justifyContent:"center"}}>
           <Link className="link"to="/" style={{textDecoration:"none", fontSize:"1rem",color:"black"}}>Home</Link>
           <a href="#about" style={{textDecoration:"none",fontSize:"1rem",color:"black"}}>About</a>
           <a href="#services" style={{textDecoration:"none",fontSize:"1rem",color:"black"}}>Services</a>
-          <a href="#team" style={{textDecoration:"none",fontSize:"1rem",color:"black"}}>Team</a>
-          </div>
-          <div className="contact">
-            <a href="#contact" style={{fontSize:"1rem",color:"black",textDecoration:"none"}}>
+          <a href="#team" style={{textDecoration:"none",fontSize:"1rem",color:"black"}}>team</a>
+          <a href="#contact" style={{fontSize:"1rem",color:"black",textDecoration:"none"}}>
               <button style={{backgroundColor:"#FF0063"}}>contact</button>
             </a>
+          </div>
+          <div className="contact">
+            
           </div>
         </div>
       </div>
