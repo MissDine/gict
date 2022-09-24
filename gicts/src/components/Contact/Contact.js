@@ -18,22 +18,22 @@ function Contact() {
     })
   }
   return (
-    <div className="row" style={{backgroundColor:"#66BFBF"}}>
+    <div className="col-sm-12" style={{backgroundColor:"#EAF6F6"}}>
     <div className="contacts" style={{justifyContent:"center"}}>
-    <h1 style={{fontSize:"2rem",fontWeight:"600px", textAlign:"center"}}>Contact Us</h1>
+    <h1 style={{fontSize:"2rem",fontWeight:"600px", textAlign:"center",color:"#FF0063"}}>Contact Us</h1>
     </div>
       <div
         className="col-sm-12"
         style={{ display: "flex", justifyContent: "center",marginTop:"5vh",marginBottom:"5vh"}}
       >
         
-        <div className="col-md-6">
+        <div className="col-sm-12">
           <form onSubmit={HandleSubmit}>
             <div
               class="form-row"
             >
               <div className="identity" >
-              <div class="col">
+              <div class="col-sm-12">
               <p>Name:</p>
                 <input
                   type="text"

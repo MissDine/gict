@@ -7,14 +7,15 @@ import Footer from "../src/components/Footer/Footer";
 import Contact from "../src/components/Contact/Contact"
 import Services from "../src/components/Services/Services"
 import About from "../src/components/About/About"
-import Copyright from "./components/Footer/Copyright";
-
+import Copyright from "./components/Footer/Copyright"
+import Navb from "../src/components/Navbar/Navb"
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Navbar />
+        {/* <Navb/> */}
         <Routes>
           <Route exact path="/home" component={Home}></Route>
           <Route exact path="/header" component={Header}></Route>
@@ -27,8 +28,8 @@ function App() {
         <About/>
         <Services/>
         <Contact/>
+        <Footer />
         <Copyright/>
-        {/* <Footer /> */}
       </div>
     </Router>
   );

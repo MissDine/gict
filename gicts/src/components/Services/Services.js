@@ -6,7 +6,7 @@ import Development from "./Static assets-cuate.png"
 function Services() {
   return (
     <div className="col-sm-12" >
-      <h1 style={{fontSize:"2rem", textAlign:"center"}}>Our Services</h1>
+      <h1 style={{fontSize:"2rem", textAlign:"center",color:"#FF0063"}}>Our Services</h1>
       <div className="col-sm-12" style={{display:"flex", flexWrap:"wrap", marginLeft:"10vw"}}>
         <div className="uiux">
           <img src={Ui} alt="" style={{height:"300px", width:"250px"}} />
