@@ -9,6 +9,7 @@ import Services from "../src/components/Services/Services"
 import About from "../src/components/About/About"
 import Copyright from "./components/Footer/Copyright"
 import Navb from "../src/components/Navbar/Navb"
+import Tabs from "./components/Tabs";
 
 function App() {
   return (
@@ -25,9 +26,10 @@ function App() {
         </Routes>
         <Header />
         {/* <Head/> */}
-        <About/>
+        {/* <About/>
         <Services/>
-        <Contact/>
+        <Contact/> */}
+        <Tabs />
         <Footer />
         <Copyright/>
       </div>

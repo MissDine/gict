@@ -7,20 +7,20 @@ import twitter from "./icons8-twitter-squared-50.png"
 
 function NavBar() {
   return (
-    <nav style={{backgroundColor:"white"}}>
+    <div className="col-sm-12" style={{backgroundColor:"white"}}>
       <div className="col-sm-12" style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
         <div className="col-sm-12" style={{display:"flex", marginRight:"60vw"}}>
           <div className="facebook">
-          <img src={facebook} alt="" style={{height:"40px", width:"40px"}}/>
+          <img src={facebook} alt="" style={{height:"30px", width:"30px"}}/>
           </div>
           <div className="instagram">
-            <img src={instagram} alt="" style={{height:"40px",width:"40px"}}/>
+            <img src={instagram} alt="" style={{height:"30px",width:"30px"}}/>
           </div>
           <div className="linkedin">
-            <img src={linkedin} alt="" style={{height:"40px",width:"40px"}}/>
+            <img src={linkedin} alt="" style={{height:"30px",width:"30px"}}/>
           </div>
           <div className="linkedin">
-            <img src={twitter} alt="" style={{height:"40px",width:"40px"}}/>
+            <img src={twitter} alt="" style={{height:"30px",width:"30px"}}/>
           </div>
         </div>
         <div className="col-sm-12" style={{display:"flex", flexWrap:"wrap", justifyContent:"center", alignItems:"center", marginRight:"0vw"}}>
@@ -36,7 +36,7 @@ function NavBar() {
           </div>
         </div>
       </div>
-    </nav>
+    </div>
   );
 }
 export default NavBar;

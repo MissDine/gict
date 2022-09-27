@@ -3,7 +3,7 @@ import Typed from "react-typed";
 // import "./Header.css"
 function Header() {
   return (
-    <div className="head col-sm-12" style={{backgroundColor:"#66BFBF", marginTop:"5vh"}}>
+    <div className="col-sm-12" style={{backgroundColor:"#66BFBF", marginTop:"5vh", backgroundSize:"cover",backgroundRepeat:"no-repeat",height:"30vw"}}>
       <div className="col-sm-12" style={{marginLeft:"10vw",marginRight:"10vw",marginTop:"3vh"}}>
       <Typed
             strings={["Welcome To GICT"]}
